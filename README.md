@@ -3,11 +3,11 @@ Binary segmentation of low-grade glioma (LGG) tumors from FLAIR MRI scans Backbo
 
 ## Key Features
 
-* Architecture: ResNet-34 Backbone + U-Net Decoder.
-* Deep Supervision: Multi-scale output support for improved gradient flow (implemented in architecture).
-* Advanced Loss: Combined Dice + Binary Cross-Entropy (DiceBCELoss) for handling class imbalance.
-* Training Robustness: Full checkpointing (optimizer state, scheduler, and history) for seamless training resumption.
-* Augmentation: Real-time geometric and color jitters using torchvision.
+* **Architecture**: ResNet-34 Backbone + U-Net Decoder.
+* **Deep Supervision**: Multi-scale output support for improved gradient flow (implemented in architecture).
+* **Advanced Loss**: Combined Dice + Binary Cross-Entropy (DiceBCELoss) for handling class imbalance.
+* **Training Robustness:** Full checkpointing (optimizer state, scheduler, and history) for seamless training resumption.
+* **Augmentation:** Real-time geometric and color jitters using torchvision.
 
 ## Architecture Detail
 
