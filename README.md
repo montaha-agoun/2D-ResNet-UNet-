@@ -31,4 +31,6 @@ https://huggingface.co/SisyphussDEBUG/best_resunet2
 ## Results
 The model achieves high localization accuracy on the test set:
 * Test Dice Score: 0.9038
-* Test IoU: 0.8742 
+* Test IoU: 0.8742
+<img width="2003" height="3936" alt="predictions" src="https://github.com/user-attachments/assets/5a6f9a13-ad2f-4a65-be24-50b232a3da18" />
+
